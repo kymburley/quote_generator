@@ -8,14 +8,12 @@ html, body {
 
 h1 {
   font-family: 'Abhaya Libre', serif;
-  font-size: 60px;
   margin-top: 5%;
 }
 
-.quotes {
+.quoteBox {
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
-  width: 50%;
+  width: 80%;
   margin: 50px auto;
   padding: 25px;  
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
@@ -24,9 +22,12 @@ h1 {
 }
 
 .quoteMarks {
-  width: 64px;
   margin-top: -25px;
 }
+
+/*.theQuote {
+  text-align: left;
+}*/
 
 .theAuthor {
   font-style: italic;
@@ -34,20 +35,13 @@ h1 {
   padding-top: 15px;
 }
 
-.tweet {
-  margin-top: 50px;
-}
-
 .quoteBtn {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
   letter-spacing: 1px;
   border: 1px solid #BFBBAE;
   color: #fff;
   background-color: #BFBBAE;
   box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.5);
-  margin-top: -75px;
 }
 
 .quoteBtn:hover {
@@ -59,6 +53,7 @@ h1 {
 .credits {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
+    margin-bottom: 5%;
 }
 
 .credits a {
