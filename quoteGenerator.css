@@ -34,6 +34,10 @@ h1 {
   padding-top: 15px;
 }
 
+.tweet {
+  margin-top: 50px;
+}
+
 .quoteBtn {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
@@ -43,6 +47,7 @@ h1 {
   color: #fff;
   background-color: #BFBBAE;
   box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.5);
+  margin-top: -75px;
 }
 
 .quoteBtn:hover {
