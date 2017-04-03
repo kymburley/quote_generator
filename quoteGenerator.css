@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #BFBBAE;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 60px;
+  margin-top: 5%;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 22px;
+    color: #fff;
+}
+
+.quotes {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  width: 50%;
+  margin: 50px auto;
+  padding: 25px;  
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+  height: auto;
+  background-color: #fff;
+}
+
+.quoteMarks {
+  width: 64px;
+  margin-top: -25px;
+}
+
+.theAuthor {
+  font-style: italic;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.quoteBtn {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /*margin-top: 45px;*/
+  border: 1px solid #BFBBAE;
+  color: #fff;
+  background-color: #BFBBAE;
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.quoteBtn:hover {
+    background-color: #fff;
+    color: #BFBBAE;
+    border-color: #BFBBAE;
+}
+
+.credits {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.credits a {
+    color: #fff;
+}
