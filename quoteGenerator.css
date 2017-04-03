@@ -25,14 +25,10 @@ h1 {
   margin-top: -25px;
 }
 
-/*.theQuote {
-  text-align: left;
-}*/
-
 .theAuthor {
   font-style: italic;
   font-size: 18px;
-  padding-top: 15px;
+  margin-bottom: 25px;
 }
 
 .quoteBtn {
