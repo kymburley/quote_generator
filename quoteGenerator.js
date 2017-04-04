@@ -1,6 +1,12 @@
 $(document).ready(function() {
    $(".quoteBtn").click(function() {
-      $.ajax({
+      var url = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
+      $.getJSON(url, function(json) {
+         $(".theQuote").html(json.quoteText);
+         $(".theAuthor").html(json.quoteAuthor);
+
+      });
+/*      $.ajax({
          url: "http://api.forismatic.com/api/1.0/",
          jsonp: "jsonp",
          dataType: "jsonp",
@@ -17,7 +23,7 @@ $(document).ready(function() {
          error: function(errorMsg) {
             console.log(errorMsg);
          }
-      })
+      })*/
 
    });
 
